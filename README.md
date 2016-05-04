@@ -7,6 +7,7 @@
 2. 替换html、shtml、js、css文件内引用到的静态资源路径。
 
 ###### 配置说明：
+<pre>
 hlBuild.start({
 	//工程源目录
 	projectOriginDir : 'D:/kaolafm/workspace/websrc.kaolafm.com/m/m-site/dist',
@@ -19,5 +20,6 @@ hlBuild.start({
 	//编译后自动打开目录
 	autoOpen : true
 });
+</pre>
 ###### 运行：
 node m_site.js
